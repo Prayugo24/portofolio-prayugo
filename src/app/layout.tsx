@@ -8,6 +8,7 @@ import { StarsCanvas } from "@/interfaces/components/home/starsCanvas/starsCanva
 import { Metadatas } from "@/utils/metadata";
 
 
+
 const inter = Inter({ subsets: ["latin"] });
 export const viewport: Viewport = {
   themeColor: "#030014",
@@ -23,13 +24,16 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={cn(
+      <body
+        className={cn(
           "bg-[#030014] overflow-y-scroll overflow-x-hidden",
           inter.className
-        )}>
-          {/* <StarsCanvas/> */}
-        <Navbar/>
+        )}
+      >
+        <StarsCanvas />
+        <Navbar />
         {children}
+        {/* <Footer /> */}
       </body>
     </html>
   );
