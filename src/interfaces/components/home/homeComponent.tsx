@@ -8,11 +8,13 @@ export const HomeComponent = () => {
         autoPlay
         muted
         loop
-        // className="rotate-180 absolute top-[-340px] left-0 w-full h-full object-cover -z-20"
-        className="rotate-180 absolute  left-0 w-full h-full object-cover -z-20"
-        
+        className="rotate-180 absolute top-[-340px] left-0 w-full h-full object-cover -z-20"
+        // className="rotate-180 absolute  left-0 w-full h-full object-cover -z-20"
+        style={{
+          filter: "hue-rotate(270deg) saturate(1.5)", // Filter untuk mengubah warna video
+        }}
       >
-        <source src="/videos/blackhole4.webm" type="video/webm" />
+        <source src="/videos/blackhole.webm" type="video/webm" />
       </video>
 
       <HomeContent />

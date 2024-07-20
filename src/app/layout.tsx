@@ -4,8 +4,10 @@ import "@/styles/globals.css";
 import type { PropsWithChildren } from "react";
 import { cn } from "@/utils/utils";
 import { Navbar } from "@/interfaces/components/home/navbar/navbar";
-import { StarsCanvas } from "@/interfaces/components/home/starsCanvas/starsCanvas";
+import { StarsCanvas } from "@/interfaces/animation/starsCanvas/starsCanvas";
 import { Metadatas } from "@/utils/metadata";
+import { Transition } from "@/interfaces/animation/transition/transition";
+import { ParticlesContainer } from "@/interfaces/animation/particlesContainer/particlesContainer";
 
 
 
@@ -30,10 +32,14 @@ export default function RootLayout({
           inter.className
         )}
       >
+        {/* <AnimatePresence mode="wait"> */}
+        <Transition />
         <StarsCanvas />
+        <ParticlesContainer/>
         <Navbar />
         {children}
         {/* <Footer /> */}
+        {/* </AnimatePresence> */}
       </body>
     </html>
   );
