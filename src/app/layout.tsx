@@ -1,3 +1,4 @@
+"use client"
 import type { Metadata, Viewport } from "next";
 import { Inter } from "next/font/google";
 import "@/styles/globals.css";
@@ -8,6 +9,7 @@ import { StarsCanvas } from "@/interfaces/animation/starsCanvas/starsCanvas";
 import { Metadatas } from "@/utils/metadata";
 import { Transition } from "@/interfaces/animation/transition/transition";
 import { ParticlesContainer } from "@/interfaces/animation/particlesContainer/particlesContainer";
+import { motion,AnimatePresence } from "framer-motion";
 
 
 
@@ -16,7 +18,7 @@ export const viewport: Viewport = {
   themeColor: "#030014",
 };
 
-export const metadata: Metadata = Metadatas;
+// export const metadata: Metadata = Metadatas;
 
 
 export default function RootLayout({
@@ -32,14 +34,12 @@ export default function RootLayout({
           inter.className
         )}
       >
-        {/* <AnimatePresence mode="wait"> */}
-        <Transition />
+        {/* <Transition /> */}
         <StarsCanvas />
         <ParticlesContainer/>
         <Navbar />
         {children}
         {/* <Footer /> */}
-        {/* </AnimatePresence> */}
       </body>
     </html>
   );

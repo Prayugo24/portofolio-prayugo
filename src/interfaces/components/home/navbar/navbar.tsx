@@ -4,7 +4,8 @@ import Link from "next/link";
 import { useEffect } from "react";
 
 
-import { LINKS, NAV_LINKS, SOCIALS } from "@/utils/constants";
+import { LINKS, NAV_LINKS,NAV_LINKS_MOBILE, SOCIALS } from "@/utils/constants";
+import MenuLink from "./menuLink/menuLink";
 
 export const Navbar = () => {
     useEffect(() => {
@@ -41,13 +42,13 @@ export const Navbar = () => {
             className="h-auto w-auto flex flex-row items-center"
           >
             <Image
-              src="/logo.png"
+              src="/meow7.webp"
               alt="Logo"
-              width={70}
-              height={70}
+              width={60}
+              height={60}
               draggable={false}
               className="cursor-pointer hover:animate-slowspin"
-            />
+              />
             <div className="font-bold ml-[10px] hidden md:block text-gray-300">
               Prayugo Dwi Setiyoko
             </div>
@@ -55,24 +56,10 @@ export const Navbar = () => {
 
           <div className="hidden md:flex w-[500px] h-full flex-row items-center justify-between md:mr-20">
             <div className="flex items-center justify-between w-full h-auto border-[rgba(112,66,248,0.38)] bg-[rgba(3,0,20,0.37)] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
-              {NAV_LINKS.map((link) => (
-                <Link
-                  key={link.title}
-                  href={link.link}
-                  className="cursor-pointer hover:text-[rgb(66,248,151)] transition"
-                >
-                  {link.title}
-                </Link>
+              {NAV_LINKS.map((link,index) => (
+                <MenuLink item={link} key={link.title+index}/>
               ))}
 
-              <Link
-                href={LINKS.sourceCode}
-                target="_blank"
-                rel="noreferrer noopener"
-                className="cursor-pointer hover:text-[rgb(66,248,151)] transition"
-              >
-                Article
-              </Link>
             </div>
           </div>
 
@@ -114,23 +101,9 @@ export const Navbar = () => {
         {/* Mobile Menu */}
         <div id="mobile-menu" className="hidden md:hidden">
           <div className="bg-[rgba(3,0,20,0.37)] p-4 rounded-lg shadow-lg text-gray-200">
-            {NAV_LINKS.map((link) => (
-              <Link
-                key={link.title}
-                href={link.link}
-                className="block py-2 cursor-pointer hover:text-[rgb(66,248,151)] transition"
-              >
-                {link.title}
-              </Link>
+            {NAV_LINKS_MOBILE.map((link) => (
+              <MenuLink item={link}/>
             ))}
-            <Link
-              href={LINKS.sourceCode}
-              target="_blank"
-              rel="noreferrer noopener"
-              className="block py-2 cursor-pointer hover:text-[rgb(66,248,151)] transition"
-            >
-              Article
-            </Link>
           </div>
         </div>
       </div>

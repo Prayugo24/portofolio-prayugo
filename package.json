@@ -20,6 +20,7 @@
     "react-icons": "^5.2.1",
     "react-intersection-observer": "^9.13.0",
     "react-tsparticles": "^2.9.3",
+    "react-vertical-timeline-component": "^3.6.0",
     "tailwind-merge": "^2.4.0",
     "three": "^0.166.1",
     "tsparticles": "^2.9.3"
@@ -28,6 +29,7 @@
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
+    "@types/react-vertical-timeline-component": "^3.3.6",
     "eslint": "^8",
     "eslint-config-next": "14.2.5",
     "postcss": "^8",
