@@ -48,7 +48,80 @@ export const NAV_LINKS = [
     path: "/portofolio",
     styles:"cursor-pointer hover:text-[rgb(66,248,151)] transition"
   },
+  {
+    title: "Blog",
+    path: "/blog",
+    styles:"cursor-pointer hover:text-[rgb(66,248,151)] transition"
+  },
 ] as const;
+
+// constants.js atau constants.ts
+
+export const CATEGORIES = ["General", "Technology"];
+
+export const PROJECTS_BLOG = [
+  {
+    title: "General Project 1",
+    description: "This is a general project description.",
+    tags: [
+      { name: "HTML", color: "text-blue-500" },
+      { name: "CSS", color: "text-green-500" },
+    ],
+    image: starbucks,
+    source_code_link: "https://github.com/user/repo1",
+    live_site_link: "https://live-site1.com",
+    category: "General",
+  },
+  {
+    title: "General Project 2",
+    description: "This is another general project description.",
+    tags: [
+      { name: "JavaScript", color: "text-yellow-500" },
+      { name: "React", color: "text-blue-500" },
+    ],
+    image: starbucks,
+    source_code_link: "https://github.com/user/repo2",
+    live_site_link: "https://live-site2.com",
+    category: "General",
+  },
+  {
+    title: "General Project 2",
+    description: "This is another general project description.",
+    tags: [
+      { name: "JavaScript", color: "text-yellow-500" },
+      { name: "React", color: "text-blue-500" },
+    ],
+    image: starbucks,
+    source_code_link: "https://github.com/user/repo2",
+    live_site_link: "https://live-site2.com",
+    category: "General",
+  },
+  {
+    title: "Technology Project 1",
+    description: "This is a technology project description.",
+    tags: [
+      { name: "Node.js", color: "text-green-500" },
+      { name: "Express", color: "text-gray-500" },
+    ],
+    image: starbucks,
+    source_code_link: "https://github.com/user/repo3",
+    live_site_link: "https://live-site3.com",
+    category: "Technology",
+  },
+  {
+    title: "Technology Project 2",
+    description: "This is another technology project description.",
+    tags: [
+      { name: "Python", color: "text-blue-500" },
+      { name: "Django", color: "text-green-500" },
+    ],
+    image: starbucks,
+    source_code_link: "https://github.com/user/repo4",
+    live_site_link: "https://live-site4.com",
+    category: "Technology",
+  },
+];
+
 
 export const NAV_LINKS_MOBILE = [
   {
@@ -69,6 +142,11 @@ export const NAV_LINKS_MOBILE = [
   {
     title: "Portofolio",
     path: "/portofolio",
+    styles:"block py-2 cursor-pointer hover:text-[rgb(66,248,151)] transition"
+  },
+  {
+    title: "Blog",
+    path: "/blog",
     styles:"block py-2 cursor-pointer hover:text-[rgb(66,248,151)] transition"
   },
 ] as const;
@@ -206,7 +284,7 @@ export const SERVICES = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Software Engineer",
     icon: web,
   },
   {
@@ -214,7 +292,7 @@ export const SERVICES = [
     icon: web,
   },
   {
-    title: "Content Creator",
+    title: "Mobile Developer",
     icon: web,
   },
 ] as const;

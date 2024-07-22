@@ -54,7 +54,7 @@ export const Navbar = () => {
             </div>
           </Link>
 
-          <div className="hidden md:flex w-[500px] h-full flex-row items-center justify-between md:mr-20">
+          <div className="hidden md:flex w-[530px] h-full flex-row items-center justify-between md:mr-20">
             <div className="flex items-center justify-between w-full h-auto border-[rgba(112,66,248,0.38)] bg-[rgba(3,0,20,0.37)] mr-[15px] px-[20px] py-[10px] rounded-full text-gray-200">
               {NAV_LINKS.map((link,index) => (
                 <MenuLink item={link} key={link.title+index}/>
@@ -63,7 +63,7 @@ export const Navbar = () => {
             </div>
           </div>
 
-          <div className="flex flex-row gap-5">
+          <div className="flex flex-row gap-6">
             {SOCIALS.map(({ link, name, icon: Icon }) => (
               <Link
                 href={link}

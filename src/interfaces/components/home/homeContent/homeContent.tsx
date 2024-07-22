@@ -24,7 +24,7 @@ export const HomeContent = () => {
             >
               <SparklesIcon className="text-[rgb(66,227,248)] mr-[10px] h-5 w-5" />
               <h1 className="Welcome-text text-[13px]">
-                Fullstack Developer Portfolio
+                Software Engineer Portofolio
               </h1>
             </motion.div>
     
@@ -45,7 +45,7 @@ export const HomeContent = () => {
               variants={slideInFromLeft(0.8)}
               className="text-lg text-white my-5 max-w-[600px]"
             >
-              Hello, I&apos;m Prayugo Dwi Setiyoko. I&apos;m a Full-stack developer with 5 years of experience. 
+              Hello, I&apos;m Prayugo Dwi Setiyoko. I&apos;m Software Engineer with 5 years of experience. 
               I enjoy building web sites & apps Check out my projects and skills.
             </motion.p>
     
