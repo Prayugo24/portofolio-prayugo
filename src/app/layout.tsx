@@ -10,6 +10,7 @@ import { Metadatas } from "@/utils/metadata";
 import { Transition } from "@/interfaces/animation/transition/transition";
 import { ParticlesContainer } from "@/interfaces/animation/particlesContainer/particlesContainer";
 import { motion,AnimatePresence } from "framer-motion";
+import Footer from "@/interfaces/components/footer/footer";
 
 
 
@@ -39,7 +40,7 @@ export default function RootLayout({
         <ParticlesContainer/>
         <Navbar />
         {children}
-        {/* <Footer /> */}
+        {/* <Footer/> */}
       </body>
     </html>
   );

@@ -1,6 +1,7 @@
 "use client"
 import { SectionWrapper } from "@/interfaces/animation/sectionWrapper/sectionWrapper";
 import AboutCards from "@/interfaces/components/about/aboutCard";
+import SkillsCard from "@/interfaces/components/about/skillsCard";
 import { styles } from "@/styles/styles";
 import { SERVICES } from "@/utils/constants";
 import { fadeIn, textVariant } from "@/utils/motions";
@@ -34,6 +35,7 @@ const About = () => {
             <AboutCards key={`${service.title}-${i}`} index={i} {...service} />
           ))}
         </div>
+        <SkillsCard></SkillsCard>
       </>
     </SectionWrapper>
   );

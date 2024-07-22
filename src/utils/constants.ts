@@ -1,93 +1,16 @@
-import { starbucks,project1,web } from "@/assets";
-import { FaYoutube, FaFacebook } from "react-icons/fa";
+import { starbucks,project1,web, gcp, html, 
+  unity, microsoftoffice, blender, nginx, 
+  git, firebase, aws, python, php, kotlin, 
+  java, go, csharp, tailwind, postgresql, 
+  mysql,angular,bootstrap,css,docker,javascript,
+  mongoDB,nextJS,react,typescript,
+  } from "@/assets";
 import {
-  RxDiscordLogo,
   RxGithubLogo,
-  RxInstagramLogo,
-  RxTwitterLogo,
   RxLinkedinLogo,
 } from "react-icons/rx";
 
-export const SKILL_DATA = [
-  {
-    skill_name: "HTML",
-    image: "html.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "CSS",
-    image: "css.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "JavaScript",
-    image: "js.png",
-    width: 65,
-    height: 65,
-  },
-  {
-    skill_name: "Tailwind CSS",
-    image: "tailwind.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "React",
-    image: "react.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Redux",
-    image: "redux.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "React Query",
-    image: "reactquery.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "TypeScript",
-    image: "ts.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Next.js 14",
-    image: "next.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Framer Motion",
-    image: "framer.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Stripe",
-    image: "stripe.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Node.js",
-    image: "node.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "MongoDB",
-    image: "mongodb.png",
-    width: 40,
-    height: 40,
-  },
-] as const;
+
 
 export const SOCIALS = [
   {
@@ -102,219 +25,7 @@ export const SOCIALS = [
   },
 ] as const;
 
-export const FRONTEND_SKILL = [
-  {
-    skill_name: "HTML",
-    image: "html.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "CSS",
-    image: "css.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "JavaScript",
-    image: "js.png",
-    width: 65,
-    height: 65,
-  },
-  {
-    skill_name: "Tailwind CSS",
-    image: "tailwind.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Material UI",
-    image: "mui.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "React",
-    image: "react.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Redux",
-    image: "redux.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "React Query",
-    image: "reactquery.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "TypeScript",
-    image: "ts.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Next.js 14",
-    image: "next.png",
-    width: 80,
-    height: 80,
-  },
-] as const;
 
-export const BACKEND_SKILL = [
-  {
-    skill_name: "Node.js",
-    image: "node.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "Express.js",
-    image: "express.png",
-    width: 80,
-    height: 80,
-  },
-  {
-    skill_name: "MongoDB",
-    image: "mongodb.png",
-    width: 40,
-    height: 40,
-  },
-  {
-    skill_name: "Firebase",
-    image: "firebase.png",
-    width: 55,
-    height: 55,
-  },
-  {
-    skill_name: "PostgreSQL",
-    image: "postgresql.png",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "MySQL",
-    image: "mysql.png",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "Prisma",
-    image: "prisma.png",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "Graphql",
-    image: "graphql.png",
-    width: 80,
-    height: 80,
-  },
-] as const;
-
-export const FULLSTACK_SKILL = [
-  {
-    skill_name: "React Native",
-    image: "reactnative.png",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "Tauri",
-    image: "tauri.png",
-    width: 70,
-    height: 70,
-  },
-  {
-    skill_name: "Docker",
-    image: "docker.png",
-    width: 70,
-    height: 70,
-  },
-
-  {
-    skill_name: "Figma",
-    image: "figma.png",
-    width: 50,
-    height: 50,
-  },
-] as const;
-
-export const OTHER_SKILL = [
-  {
-    skill_name: "Go",
-    image: "go.png",
-    width: 60,
-    height: 60,
-  },
-] as const;
-
-export const FOOTER_DATA = [
-  {
-    title: "Community",
-    data: [
-      {
-        name: "YouTube",
-        icon: FaYoutube,
-        link: "https://youtube.com",
-      },
-      {
-        name: "GitHub",
-        icon: RxGithubLogo,
-        link: "https://github.com",
-      },
-      {
-        name: "Discord",
-        icon: RxDiscordLogo,
-        link: "https://discord.com",
-      },
-    ],
-  },
-  {
-    title: "Social Media",
-    data: [
-      {
-        name: "Instagram",
-        icon: RxInstagramLogo,
-        link: "https://instagram.com",
-      },
-      {
-        name: "Twitter",
-        icon: RxTwitterLogo,
-        link: "https://twitter.com",
-      },
-      {
-        name: "Linkedin",
-        icon: RxLinkedinLogo,
-        link: "https://linkedin.com",
-      },
-    ],
-  },
-  {
-    title: "About",
-    data: [
-      {
-        name: "Become Sponsor",
-        icon: null,
-        link: "https://youtube.com",
-      },
-      {
-        name: "Learning about me",
-        icon: null,
-        link: "https://example.com",
-      },
-      {
-        name: "Contact Me",
-        icon: null,
-        link: "mailto:contact@example.com",
-      },
-    ],
-  },
-] as const;
 
 export const NAV_LINKS = [
   {
@@ -446,6 +157,49 @@ export const PROJECTS = [
   }
 ] as const;
 
+export const FOOTER_DATA = [
+  {
+    title: "Community",
+    data: [
+      {
+        name: "GitHub",
+        icon: RxGithubLogo,
+        link: "https://github.com",
+      },
+    ],
+  },
+  {
+    title: "Social Media",
+    data: [
+      {
+        name: "Linkedin",
+        icon: RxLinkedinLogo,
+        link: "https://linkedin.com",
+      },
+    ],
+  },
+  {
+    title: "About",
+    data: [
+      {
+        name: "Become Sponsor",
+        icon: null,
+        link: "https://youtube.com",
+      },
+      {
+        name: "Learning about me",
+        icon: null,
+        link: "https://example.com",
+      },
+      {
+        name: "Contact Me",
+        icon: null,
+        link: "mailto:contact@example.com",
+      },
+    ],
+  },
+] as const;
+
 export const SERVICES = [
   {
     title: "Web Developer",
@@ -464,3 +218,86 @@ export const SERVICES = [
     icon: web,
   },
 ] as const;
+
+export const skillsData = [
+  'HTML',
+  'CSS',
+  'Javascript',
+  'Typescript',
+  'React',
+  'Next JS',
+  'Tailwind',
+  'MongoDB',
+  'MySQL',
+  'PostgreSQL',
+  'Git',
+  'AWS',
+  'Bootstrap',
+  'Docker',
+  'Go',
+  'Firebase',
+  'Nginx',
+]
+
+export const skillsImage = (skill:string) => {
+  const skillID = skill.toLowerCase();
+  switch (skillID) {
+    case 'gcp':
+      return gcp;
+    case 'html':
+      return html;
+    case 'docker':
+      return docker;
+    case 'css':
+      return css;
+    case 'angular':
+      return angular;
+    case 'javascript':
+      return javascript;
+    case 'next js':
+      return nextJS;
+    case 'react':
+      return react;
+    case 'typescript':
+      return typescript;
+    case 'bootstrap':
+      return bootstrap;
+    case 'mongodb':
+      return mongoDB;
+    case 'mysql':
+      return mysql;
+    case 'postgresql':
+      return postgresql;
+    case 'tailwind':
+      return tailwind;
+    case 'c#':
+      return csharp;
+    case 'go':
+      return go;
+    case 'java':
+      return java;
+    case 'kotlin':
+      return kotlin;
+    case 'php':
+      return php;
+    case 'python':
+      return python;
+    case 'aws':
+      return aws;
+    case 'firebase':
+      return firebase;
+    case 'git':
+      return git;
+    case 'nginx':
+      return nginx;
+    case 'blender':
+      return blender;
+    case 'microsoft office':
+      return microsoftoffice;
+    case 'unity':
+      return unity;
+    
+    default:
+      break;
+  }
+}

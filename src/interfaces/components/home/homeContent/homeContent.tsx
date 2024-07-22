@@ -45,8 +45,8 @@ export const HomeContent = () => {
               variants={slideInFromLeft(0.8)}
               className="text-lg text-white my-5 max-w-[600px]"
             >
-              I&apos;m a Full Stack Software Engineer with experience in Website,
-              Mobile, and Software development. Check out my projects and skills.
+              Hello, I&apos;m Prayugo Dwi Setiyoko. I&apos;m a Full-stack developer with 5 years of experience. 
+              I enjoy building web sites & apps Check out my projects and skills.
             </motion.p>
     
             <motion.a
