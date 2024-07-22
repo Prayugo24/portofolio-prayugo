@@ -1,4 +1,4 @@
-import { starbucks } from "@/assets";
+import { starbucks,project1,web } from "@/assets";
 import { FaYoutube, FaFacebook } from "react-icons/fa";
 import {
   RxDiscordLogo,
@@ -253,30 +253,6 @@ export const OTHER_SKILL = [
   },
 ] as const;
 
-export const PROJECTS = [
-  {
-    title: "Modern Next.js 14 Portfolio",
-    description:
-      'Embark on a journey through my professional evolution with the "Modern Next.js Portfolio" - a dynamic showcase of my skills, experiences, and passion for web development. Crafted with precision and powered by Next.js, this portfolio is more than just a static display; it\'s an immersive experience that reflects the cutting edge of modern web technologies.',
-    image: "/projects/project-1.png",
-    link: "https://example.com",
-  },
-  {
-    title: "Interactive Cards Portfolio",
-    description:
-      'Step into the extraordinary world of my professional journey through the "Interactive Cards Portfolio" - an innovative and visually captivating platform that redefines the traditional portfolio experience. Ditching the conventional static layout, this portfolio leverages interactive cards to showcase my skills, projects, and personality in an engaging and dynamic manner.',
-    image: "/projects/project-2.png",
-    link: "https://example.com",
-  },
-  {
-    title: "Space Themed Website",
-    description:
-      'Embark on an interstellar journey with my "Space Themed Website", a mesmerizing space-themed website that invites you to explore the cosmic wonders beyond our world. Immerse yourself in an awe-inspiring digital experience that blends cutting-edge design with the mysteries of the universe.',
-    image: "/projects/project-3.png",
-    link: "https://example.com",
-  },
-] as const;
-
 export const FOOTER_DATA = [
   {
     title: "Community",
@@ -357,8 +333,8 @@ export const NAV_LINKS = [
     styles:"cursor-pointer hover:text-[rgb(66,248,151)] transition"
   },
   {
-    title: "Projects",
-    path: "/projects",
+    title: "Portofolio",
+    path: "/portofolio",
     styles:"cursor-pointer hover:text-[rgb(66,248,151)] transition"
   },
 ] as const;
@@ -380,8 +356,8 @@ export const NAV_LINKS_MOBILE = [
     styles:"block py-2 cursor-pointer hover:text-[rgb(66,248,151)] transition"
   },
   {
-    title: "Projects",
-    path: "/projects",
+    title: "Portofolio",
+    path: "/portofolio",
     styles:"block py-2 cursor-pointer hover:text-[rgb(66,248,151)] transition"
   },
 ] as const;
@@ -442,5 +418,49 @@ export const EXPERIENCES = [
       "Implementing responsive design and ensuring cross-browser compatibility.",
       "Participating in code reviews and providing constructive feedback to other developers.",
     ],
+  },
+] as const;
+
+export const PROJECTS = [
+  {
+    name: "Disney+ Clone",
+    description:
+      "Disney+ is one of the biggest streaming platforms used by millions of people world-wide and allows us to stream high quality content in 4k and various other formats",
+    tags: [
+      {
+        name: "react",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "firebase",
+        color: "green-text-gradient",
+      },
+      {
+        name: "css",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: project1,
+    source_code_link: "https://github.com/sanidhyy/disney-clone",
+    live_site_link: "https://clonedisneyplus.web.app/",
+  }
+] as const;
+
+export const SERVICES = [
+  {
+    title: "Web Developer",
+    icon: web,
+  },
+  {
+    title: "React Native Developer",
+    icon: web,
+  },
+  {
+    title: "Backend Developer",
+    icon: web,
+  },
+  {
+    title: "Content Creator",
+    icon: web,
   },
 ] as const;

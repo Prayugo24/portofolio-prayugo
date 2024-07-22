@@ -1,13 +1,12 @@
 "use client"
 import ExperienceCard from "@/interfaces/components/experience/experienceCard";
-import { SectionWrapper } from "@/interfaces/hooks/animation/sectionWrapper";
+import { SectionWrapper } from "@/interfaces/animation/sectionWrapper/sectionWrapper";
 import { styles } from "@/styles/styles";
 import { EXPERIENCES } from "@/utils/constants";
 import { textVariant } from "@/utils/motions";
 import { motion } from "framer-motion";
 import {
     VerticalTimeline,
-    VerticalTimelineElement,
   } from "react-vertical-timeline-component";
 
 
