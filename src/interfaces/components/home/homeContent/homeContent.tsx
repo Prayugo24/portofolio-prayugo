@@ -45,8 +45,8 @@ export const HomeContent = () => {
               variants={slideInFromLeft(0.8)}
               className="text-lg text-white my-5 max-w-[600px]"
             >
-              Hello, I&apos;m Prayugo Dwi Setiyoko. I&apos;m Software Engineer with 5 years of experience. 
-              I enjoy building web sites & apps Check out my projects and skills.
+              Hello, I'm Prayugo Dwi Setiyoko. As a Software Engineer with extensive experience, 
+              I specialize in creating seamless and efficient web applications. Explore my projects and see what I can do.
             </motion.p>
     
             <motion.a
