@@ -20,7 +20,7 @@ const ExperienceCard = ({ experience }: ExperienceCardProps) => {
   return (
     <VerticalTimelineElement
       visible={true}
-      contentStyle={{ background: "#1d1836", color: "#fff", transition: "background 0.6s ease-in-out, color 0.6s ease-in-out" }}
+      contentStyle={{ background: "rgba(0, 255, 0, 0.12)", color: "#fff", transition: "background 0.6s ease-in-out, color 0.6s ease-in-out" }}
       contentArrowStyle={{ borderRight: "7px solid #232631", transition: "border-right 0.6s ease-in-out" }}
       date={experience.date}
       iconStyle={{ background: experience.iconBg, transition: "background 0.6s ease-in-out" }}
@@ -61,6 +61,12 @@ const ExperienceCard = ({ experience }: ExperienceCardProps) => {
           </li>
         ))}
       </ul>
+      <div className="space-y-2 mt-5">
+        <p className="text-secondary text-[16px] font-semibold"
+          style={{ margin: 0 }}>
+          Tech Stack : {experience.tech_stack}
+        </p>
+      </div>
     </VerticalTimelineElement>
   );
 };

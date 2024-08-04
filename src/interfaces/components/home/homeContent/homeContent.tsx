@@ -9,6 +9,7 @@ import {
     slideInFromRight,
     slideInFromTop,
   } from "@/utils/motions";
+import Link from "next/link";
 
 export const HomeContent = () => {
     return (
@@ -50,6 +51,7 @@ export const HomeContent = () => {
             </motion.p>
     
             <motion.a
+              href="/about"
               variants={slideInFromLeft(1)}
               className="py-2 button-primary text-center text-white cursor-pointer rounded-lg max-w-[200px]"
             >

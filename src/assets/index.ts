@@ -1,4 +1,7 @@
-import starbucks from "./company/starbucks.png";
+import allianz from "./company/allianz.png";
+import moladin from "./company/moladin.png";
+import viva from "./company/viva.jpg";
+import pointer from "./company/pointer.png";
 import project1 from "./projects/project1.png";
 import preview from "./preview.png";
 import github from "./socials/github.svg";
@@ -32,8 +35,18 @@ import tailwind from './skills/tailwind.svg';
 import typescript from './skills/typescript.svg';
 import unity from './skills/unity.svg';
 
+import nodeJsBlog from './blog/nodejs.webp';
+import ollamaBlog from './blog/ollama.webp';
+import pythonBlog from './blog/pythonBlog.webp';
+
 export {
-    starbucks,
+    nodeJsBlog,
+    ollamaBlog,
+    pythonBlog,
+    allianz,
+    moladin,
+    viva,
+    pointer,
     project1,
     preview,
     github,
