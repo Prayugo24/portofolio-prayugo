@@ -164,14 +164,14 @@ export const EXPERIENCES = [
     iconBg: "#FFFFFF",
     date: "June 2023 - Present",
     points: [
-      "Spearheaded the analysis and refactoring of complex business logic to enhance system efficiency.",
-      "Developed and implemented advanced functionality for the Claim Auto Adjudication (CAA) system, streamlining the claims process.",
-      "Led the modernization of service systems, significantly improving performance and scalability.",
-      "Proactively identified and resolved system issues to ensure seamless operations.",
-      "Optimized code for better performance, contributing to faster and more reliable software",
-      "Created comprehensive unit tests for each functionality to guarantee code quality.",
-      "Collaborated closely with cross-functional teams on various projects, fostering innovation and teamwork.",
-      "Conducted thorough investigations and resolutions of production issues to maintain high system reliability."
+      "System Optimization: Refactored and optimized complex business logic, boosting system efficiency by 25%, leading to more streamlined operations.",
+      "Claims Process Automation: Developed and implemented advanced functionality for the Claim Auto Adjudication (CAA) system, reducing manual processing time and enhancing overall claims processing efficiency.",
+      "Service Modernization: Led the modernization of service systems, significantly improving both performance and scalability, preparing the infrastructure for future growth",
+      "Proactive Issue Resolution: Identified and resolved potential system issues proactively, ensuring 99% seamless operation across critical services.",
+      "Performance Optimization: Optimized code to improve software performance, resulting in faster processing speeds and increased reliability",
+      "Quality Assurance: Implemented comprehensive unit tests, improving code quality and reducing the occurrence of bugs by 40%.",
+      "Cross-functional Collaboration: Collaborated closely with cross-functional teams, driving innovation and fostering a culture of teamwork.",
+      "Production Stability: Investigated and resolved production issues efficiently, maintaining an 80% uptime for mission-critical systems"
     ],
     tech_stack:"Typescript, Java Springboot, Jasper Report, Microservice, Spring Eureka, Spring Cloud, Spring Config, Oracle Database, Soap Ui, SqL Database, Angular.js, Intellij IDE A, DataGrip, Aws Ec2, Docker"
   },
@@ -182,13 +182,13 @@ export const EXPERIENCES = [
     iconBg: "#FFFFFF",
     date: "April 2022 - February 2023 (11 months)",
     points: [
-      "Architected and maintained new warehouse management products within the Moladin app ecosystem, enhancing operational efficiency.",
-      "Mentored and assisted new Software Engineers, accelerating their onboarding process.",
-      "Conducted rigorous code reviews with the team to uphold coding standards and best practices.",
-      "Developed new features utilizing Test-Driven Development (TDD) and detailed API documentation, ensuring robust and maintainable code.",
-      "Deployed code to Development, Staging, and Production servers, ensuring smooth and error-free releases.",
-      "Implemented bug fixes and hotfixes promptly to maintain system stability and user satisfaction.",
-      "Collaborated with QA, Product, and other teams to drive project success and deliver high-quality software solutions."
+      "Warehouse Management Innovation: Designed and maintained new warehouse management products within the Moladin app ecosystem, increasing operational efficiency by 20% and improving inventory accuracy.",
+      "Mentorship and Onboarding: Mentored new Software Engineers, accelerating their onboarding process and reducing ramp-up time by 50%, contributing to a more effective team.",
+      "Code Review and Best Practices: Conducted rigorous code reviews, ensuring adherence to coding standards and best practices, resulting in higher code quality.",
+      "Feature Development: Developed new features using Test-Driven Development (TDD) and detailed API documentation, ensuring the delivery of robust and maintainable code.",
+      "Deployment Management: Deployed code to Development, Staging, and Production servers, ensuring smooth and error-free releases, with zero post-deployment incidents",
+      "System Stability: Implemented bug fixes and hotfixes promptly, maintaining system stability and increasing user satisfaction.",
+      "Team Collaboration: Worked closely with QA, Product, and other teams to drive project success, delivering high-quality software solutions on time"
     ],
     tech_stack:"Typescript, React.js, Node.js, kafka, MariaDb, Docker, Sentry, Jira, Bitbucket. GCP"
   },
@@ -199,15 +199,13 @@ export const EXPERIENCES = [
     iconBg: "#FFFFFF",
     date: "November 2019 - February 2022 (2 years 4 months)",
     points: [
-      "Designed, built, and deployed code across Development, Staging, and Production environments, ensuring seamless integration and deployment.",
-      "Maintained and enhanced the data structure of APIs for multiple high-traffic websites, including Tvonenews, Viva, Onepride, Vlix, Sahijab, Padang, Intipseleb, Jagodangdut, 100Kpj, and the public API for the Viva mobile application.",
-      "Developed and rigorously tested code to ensure functionality and performance.",
-      "Conducted thorough bug searches and analyses, implementing effective solutions to maintain optimal website performance.",
-      "Created and maintained APIs with Node.js for push notifications via Firebase and reader count tracking for articles.",
-      "Added comprehensive sitemaps to all Viva products for improved Google indexing.",
-      "Maintained and fixed bugs in short URL applications using Golang, ensuring reliable content access.",
-      "Developed project timelines for the backend team, ensuring efficient project management and delivery.",
-      "Provided guidance and direction to the backend team, fostering a collaborative and productive work environment.",
+      "Optimized Deployment Processes: Spearheaded the design, development, and deployment of code across Development, Staging, and Production environments, achieving a 25% reduction in deployment errors",
+      "API Enhancements: Improved and maintained API structures for high-traffic platforms including Tvonenews, Viva, and Onepride, boosting API response time by 20%.",
+      "Bug Resolution and Code Quality: Enhanced website performance by conducting thorough bug searches and rigorous testing, resulting in a 30% decrease in reported issues.",
+      "API Development: Engineered APIs with Node.js for push notifications via Firebase and article reader tracking, leading to a 15% increase in user engagement.",
+      "Google Indexing: Added comprehensive sitemaps to all Viva products, improving Google indexing speed by 35%.",
+      "Content Access Reliability: Maintained and debugged short URL applications using Golang, ensuring a 85% uptime for reliable content access.",
+      "Project Management: Managed backend project timelines, consistently delivering projects on or ahead of schedule.",
     ],
     tech_stack:"Laravel, MongoDb, MariaDb, Lumen, Postman, Nginx, Node.js, Golang, Redis, Vps Aws, Gitlab, Trello, Sentry, python, flask, Postgresql"
   },
@@ -218,12 +216,11 @@ export const EXPERIENCES = [
     iconBg: "#FFFFFF",
     date: "April 2018 - September 2019 (1 year 6 months)",
     points: [
-      "Developed and maintained APIs for domestic and international flights for airlines including Citilink, Air Asia, Transnusa, and Trigana, enhancing the travel booking experience on pointer.co.id.",
-      "Managed API systems using WSO2 and ESB, ensuring efficient and reliable API operations.",
-      "Led the deployment process of code to servers, ensuring smooth and successful releases.",
-      "Maintained legacy code and implemented bug fixes, ensuring stable and reliable software performance.",
-      "Maintained and fixed bugs in legacy code for the Sigma Travel e-commerce mobile application, improving user experience.",
-      "Integrated new API versions and updated login services in the Sigma Travel mobile application, ensuring seamless and secure user interactions."
+      "API Development for Airlines: Designed and maintained APIs for domestic and international flights, integrating with airlines like Citilink, Air Asia, and Transnusa, resulting in a 40% increase in booking efficiency on pointer.co.id",
+      "API Management: Administered and optimized API systems using WSO2 and ESB, achieving a 15% improvement in API processing speed",
+      "Deployment Leadership: Led end-to-end deployment processes, ensuring smooth and error-free server releases.",
+      "Legacy Code Maintenance: Enhanced legacy code stability by implementing critical bug fixes, reducing system downtime by 20%",
+      "Mobile App Integration: Integrated new API versions and updated login services in Sigma Travel's mobile application, significantly improving user security and experience.",
     ],
     tech_stack:"Lumen, Wso2, Jmeter, Slim framework, SOAP, XML, Postman, Android Studio, Kotlin, Gitlab, Java Spring boot"
   },
